@@ -7,6 +7,9 @@ include the price for that recipe.
 
 <img width="1505" alt="image" src="https://user-images.githubusercontent.com/64393177/192123279-92bfba22-00f3-468d-8d45-274bb87edd7d.png">
 
+<img width="1211" alt="image" src="https://user-images.githubusercontent.com/64393177/192123342-9aa25b56-7404-4be7-a994-992316373869.png">
+
+
 ### Authentication
 
 User can sign in via Magic Link (verification of email per signin) or OAuth (currently supports Google)
