@@ -20,6 +20,9 @@ Each checkout session is handled by Stripe and is valid for __30__ minutes. The 
 checkout session and the UI redirects the user to that session.\
 Upon successful payment, a __confirmation__ will be sent to the email of the user (*__PRODUCTION ONLY__*)
 
+<img width="1222" alt="image" src="https://user-images.githubusercontent.com/64393177/192155083-fe90b8e2-c892-46ab-8082-8691973f88b2.png">
+
+
 ## Tools used
 
 - Next.js
