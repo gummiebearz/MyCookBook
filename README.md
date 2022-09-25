@@ -22,6 +22,8 @@ Upon successful payment, a __confirmation__ will be sent to the email of the use
 
 <img width="1222" alt="image" src="https://user-images.githubusercontent.com/64393177/192155083-fe90b8e2-c892-46ab-8082-8691973f88b2.png">
 
+<img width="1067" alt="image" src="https://user-images.githubusercontent.com/64393177/192155467-6d035d37-3fdc-4604-983b-5be24df524bb.png">
+
 ## Tools used
 
 - Next.js
