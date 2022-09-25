@@ -22,6 +22,11 @@ Upon successful payment, a __confirmation__ will be sent to the email of the use
 
 <img width="1222" alt="image" src="https://user-images.githubusercontent.com/64393177/192155083-fe90b8e2-c892-46ab-8082-8691973f88b2.png">
 
+<<<<<<< HEAD
+=======
+<img width="1084" alt="image" src="https://user-images.githubusercontent.com/64393177/192155105-2505b390-ad5e-4cba-88c0-f0890ef59cc7.png">
+
+>>>>>>> 13814cf91b22b787431457a39f4c4ff6a8ccfcac
 
 ## Tools used
 
