@@ -139,7 +139,11 @@ export const CurrentUserProvider = ({ children }) => {
     // This effect is to check for unauthorized/ unauthenticated access to secure routes
     useEffect(() => {
         if (!isLoggedIn) {
-            if (router.pathname === '/cart') router.push('/')
+            if (
+                router.pathname === '/cart' ||
+                router.pathname.startsWith('/checkout')
+            )
+                router.push('/')
         }
     }, [router, router.pathname])
 
