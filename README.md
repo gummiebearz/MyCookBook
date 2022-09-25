@@ -16,8 +16,8 @@ User can sign in via Magic Link (verification of email per signin) or OAuth (cur
 
 ### Checkout
 
-Each checkout session is handled by Stripe and is valid for __30__ minutes\. The backend is responsible for generating a Stripe
-checkout session and the UI redirects the user to that session.
+Each checkout session is handled by Stripe and is valid for __30__ minutes. The backend is responsible for generating a Stripe
+checkout session and the UI redirects the user to that session.\
 Upon successful payment, a __confirmation__ will be sent to the email of the user (*__PRODUCTION ONLY__*)
 
 ## Tools used
