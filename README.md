@@ -17,5 +17,6 @@ User can sign in via Magic Link (verification of email per signin) or OAuth (cur
 - Stripe
 - Supabase (alternative to Firebase)
 - Chakra-UI
+- Rapid API for fetching foods
 
 ### Made by [Gumball](https://github.com/gumball09) with :purple_heart:
