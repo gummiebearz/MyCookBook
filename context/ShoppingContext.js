@@ -14,7 +14,7 @@ export const ShoppingProvider = ({ children }) => {
     useEffect(() => {
         const items = JSON.parse(localStorage.getItem(cookbookKey))
         if (items && items.length > 0) setCart((prevState) => items)
-    }, [router, router.pathname])
+    }, [])
 
     const addItemToCart = (item) => {
         if (!isLoggedIn) throw Error('Not Authorized. Please log in to shop!')

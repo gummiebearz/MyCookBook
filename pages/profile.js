@@ -32,13 +32,13 @@ export default function Profile() {
         deleteUser
     } = useContext(CurrentUserContext)
 
-    // Clear items button
+    // Delete user profile
     const {
         isOpen: isOpenDelete,
         onOpen: onOpenDelete,
         onClose: onCloseDelete
     } = useDisclosure()
-    const cancelRefClearCart = useRef()
+    const cancelRefDelUser = useRef()
 
     const [username, setUsername] = useState(
         isLoggedIn ? user?.user_data?.username : ''
@@ -163,7 +163,7 @@ export default function Profile() {
                         </Button>
                         <AlertDialog
                             isOpen={isOpenDelete}
-                            leastDestructiveRef={cancelRefClearCart}
+                            leastDestructiveRef={cancelRefDelUser}
                             onClose={onCloseDelete}
                             motionPreset='slideInBottom'
                             isCentered
@@ -184,7 +184,7 @@ export default function Profile() {
 
                                     <AlertDialogFooter>
                                         <Button
-                                            ref={cancelRefClearCart}
+                                            ref={cancelRefDelUser}
                                             onClick={onCloseDelete}
                                         >
                                             Cancel
