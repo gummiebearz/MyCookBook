@@ -125,7 +125,7 @@ export default function MenuItem() {
                                 : 'N/A'}
                         </Heading>
                         <Stack mt='10' spacing={3}>
-                            <Text>What's included in the recipe?</Text>
+                            <Text>What&rsquo included in the recipe?</Text>
                             <List spacing={2}>
                                 <ListItem>
                                     <ListIcon
