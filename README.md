@@ -32,4 +32,15 @@ Upon successful payment, a __confirmation__ will be sent to the email of the use
 - Chakra-UI
 - Rapid API for fetching foods
 
+## Project Setup
+__Prereq__: Install node v.16 and above
+
+- Clone the repository
+- Install all packages with `npm install`
+- Run the project in DEV mode with `npm run dev`
+
+## Starting in Production mode
+- Build the project with `npm run build`
+- Serve production with `npm start`
+
 ### Made by [Gumball](https://github.com/gumball09) with :purple_heart:
