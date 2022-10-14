@@ -1,4 +1,5 @@
 ## MYCOOKBOOK
+See [Demo](https://mycookbook-gumball09.netlify.app/) (Currently down due to unregulated API subscription charges)
 
 This is a Next.js project called __MyCookBook__, which sells recipes of different food categories.\
 To view the detailed recipes, the user must create an account and purchase them.
